@@ -1,0 +1,97 @@
+.countries_container {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.countries_container a {
+  width: 100%;
+}
+.country_box {
+  width: 100%;
+  height: 55px;
+  border: 3px solid rgb(0, 0, 0);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  padding: 15px 10px;
+  color: rgb(109, 96, 25);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all ease 0.3s;
+  box-sizing: border-box;
+  text-align: right;
+  background: #c0b6d3;
+}
+.index {
+  width: 50px;
+  display: flex;
+  justify-content: flex-start;
+}
+.country_info {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+  align-items: center;
+}
+.country_info img {
+  margin: 0px 20px 0px 0px;
+}
+.country_box:hover {
+  background: #64f15f;
+}
+.country_box img {
+  margin-left: 2px;
+}
+img {
+  width: 14%;
+}
+.aboutCountry_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.aboutCountry {
+  outline: 1px solid black;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+.aboutCountry > * {
+  outline: 1px solid black;
+}
+.country_name {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(109, 96, 25);
+  font-size: 50px;
+  align-items: center;
+  text-align: center;
+}
+.flag {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  height: 200px;
+  overflow: hidden;
+  width: 80%;
+  margin: 0px 0px 20px 0px;
+}
+.flag img {
+    width: 100%;
+    height: 100%;
+}
+
+.search_bar {
+  margin-bottom: 20px;
+}
+
+.search_bar input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+
