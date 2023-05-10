@@ -50,7 +50,7 @@ function AboutCountry() {
           <div className="countryName">{country.name.common}</div>
         </div>
         <div className="tabs">
-          <Tabs defaultTab="Information" tabs={["Information", "Maps"]}>
+          <Tabs defaultTab="Maps" tabs={["Information", "Maps"]}>
             {/* Информація про країну */}
             <div>
               {/* Назва */}
