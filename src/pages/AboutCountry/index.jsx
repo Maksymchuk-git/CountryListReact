@@ -114,7 +114,7 @@ function AboutCountry() {
                 <p>Continents:</p>
                 <dir>{country.region}</dir>
               </div>
-              {/* Регіон */}
+              {/* Субрегіон */}
               <div className="dFlex">
                 <p>Sub region:</p>
                 <div>{country.subregion}</div>
